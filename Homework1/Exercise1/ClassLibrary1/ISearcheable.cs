@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal interface ISearcheable
+    public  interface ISearcheable
     {
         string Search(string word);
     }

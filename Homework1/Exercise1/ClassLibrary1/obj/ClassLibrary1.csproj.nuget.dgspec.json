@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Task1\\ClassLibrary1\\ClassLibrary1.csproj": {}
+    "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\ClassLibrary1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Task1\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Task1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Task1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Task1\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",

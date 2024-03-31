@@ -1,0 +1,12 @@
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll

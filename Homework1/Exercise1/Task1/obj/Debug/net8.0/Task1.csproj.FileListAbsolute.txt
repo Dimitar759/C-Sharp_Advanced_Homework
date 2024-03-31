@@ -1,0 +1,6 @@
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\Task1\obj\Debug\net8.0\Task1.csproj.AssemblyReference.cache
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\Task1\obj\Debug\net8.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\Task1\obj\Debug\net8.0\Task1.AssemblyInfoInputs.cache
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\Task1\obj\Debug\net8.0\Task1.AssemblyInfo.cs
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\Task1\obj\Debug\net8.0\Task1.csproj.CoreCompileInputs.cache
+C:\Users\dimit\OneDrive\Documents\GitHub\C-Sharp_Advanced_Homework\Homework1\Exercise1\Task1\obj\Debug\net8.0\Task1.sourcelink.json
