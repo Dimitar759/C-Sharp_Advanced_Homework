@@ -31,15 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Task1",
+              "Title": "Task1.csproj",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework2\\Task1\\Task1\\Task1.csproj",
               "RelativeDocumentMoniker": "Task1\\Task1.csproj",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework2\\Task1\\Task1\\Task1.csproj",
               "RelativeToolTip": "Task1\\Task1.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-31T14:02:38.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-31T14:02:38.484Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Models\\UserDatabase.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework2\\Task1\\Models\\UserDatabase.cs",
               "RelativeToolTip": "Models\\UserDatabase.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAhwCcAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T14:08:29.267Z",
               "EditorCaption": ""
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Task1\\Program.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAkwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:01:58.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-31T14:01:58.324Z"
             }
           ]
         }

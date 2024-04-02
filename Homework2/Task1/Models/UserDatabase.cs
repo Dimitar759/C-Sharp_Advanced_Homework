@@ -8,8 +8,8 @@ namespace Models
 {
     public static class UserDatabase
     {
-        
-        public static List<User> Users { get; set; }  = new List<User>();
+
+        public static List<User> Users { get; set; } = new List<User>(); // po default site ovie se null ne se nula
 
         public static void AddUser(User user)
         {

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9E6B860-9D50-4A97-B480-EF2B60D1B3AE}|Task1\\Task1.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework1\\exercise1\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9E6B860-9D50-4A97-B480-EF2B60D1B3AE}|Task1\\Task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{068EA711-A1F2-40C1-A278-A2B6B559AB9C}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework1\\exercise1\\classlibrary1\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{068EA711-A1F2-40C1-A278-A2B6B559AB9C}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{068EA711-A1F2-40C1-A278-A2B6B559AB9C}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework1\\exercise1\\classlibrary1\\webpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{068EA711-A1F2-40C1-A278-A2B6B559AB9C}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\webpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E6B860-9D50-4A97-B480-EF2B60D1B3AE}|Task1\\Task1.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework1\\exercise1\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9E6B860-9D50-4A97-B480-EF2B60D1B3AE}|Task1\\Task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Document.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\Document.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\Document.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WebPage.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\WebPage.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\WebPage.cs",
@@ -51,11 +51,12 @@
               "RelativeToolTip": "ClassLibrary1\\WebPage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T19:45:53.584Z"
+              "WhenOpened": "2024-03-28T19:45:53.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ISearcheable.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\ClassLibrary1\\ISearcheable.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\ISearcheable.cs",
@@ -68,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\Task1\\Program.cs",
               "RelativeDocumentMoniker": "Task1\\Program.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework1\\Exercise1\\Task1\\Program.cs",
               "RelativeToolTip": "Task1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T19:40:11.341Z",
               "EditorCaption": ""
