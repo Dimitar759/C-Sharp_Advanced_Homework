@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Car : IVehichle
+    public class Car : Vehichle
     {
-        public string DisplayInfo()
+
+        public override string DisplayInfo()
         {
             return "Im a car and i drive with 4 wheels :)";
-        }
-
-        public string Drive()
-        {
-            return "Driving";
         }
     }
 

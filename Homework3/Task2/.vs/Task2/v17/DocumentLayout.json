@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{286EF169-D7EF-4C8C-85D1-C6FCCCC12C0B}|Task2\\Task2.csproj|solutionrelative:task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\vehichlehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\vehichlehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|solutionrelative:models\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{024EE91C-429C-44F7-B14B-61DB1980CB8A}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\homework3\\task2\\models\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehichleHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\VehichleHelpers.cs",
+              "RelativeDocumentMoniker": "Models\\VehichleHelpers.cs",
+              "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\VehichleHelpers.cs",
+              "RelativeToolTip": "Models\\VehichleHelpers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:35:05.941Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -44,59 +61,59 @@
               "RelativeDocumentMoniker": "Models\\Car.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Car.cs",
               "RelativeToolTip": "Models\\Car.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:10:43.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Boat.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Boat.cs",
               "RelativeDocumentMoniker": "Models\\Boat.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Boat.cs",
               "RelativeToolTip": "Models\\Boat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:10:33.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Airplane.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Airplane.cs",
               "RelativeDocumentMoniker": "Models\\Airplane.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Airplane.cs",
               "RelativeToolTip": "Models\\Airplane.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:10:15.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Motorbike.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Motorbike.cs",
               "RelativeDocumentMoniker": "Models\\Motorbike.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Motorbike.cs",
               "RelativeToolTip": "Models\\Motorbike.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:10:04.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IVehicle.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\IVehicle.cs",
-              "RelativeDocumentMoniker": "Models\\IVehicle.cs",
-              "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\IVehicle.cs",
-              "RelativeToolTip": "Models\\IVehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Models\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:09:53.966Z",
               "EditorCaption": ""
@@ -109,7 +126,7 @@
               "RelativeDocumentMoniker": "Task2\\Program.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\Homework3\\Task2\\Task2\\Program.cs",
               "RelativeToolTip": "Task2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswA8AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T17:58:11.243Z",
               "EditorCaption": ""

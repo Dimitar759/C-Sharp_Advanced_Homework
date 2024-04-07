@@ -19,10 +19,21 @@ namespace Task2
 
             Console.WriteLine("----------------------------------");
 
-            Console.WriteLine(car.Drive());
-            Console.WriteLine(motorBike.Wheelie());
-            Console.WriteLine(boat.Sail());
-            Console.WriteLine(plane.Fly());
+            string car2 = "Driving";
+            string driving = car2.Drive();
+            Console.WriteLine(driving);
+
+            string boat2 = "Boat";
+            string sailing = boat2.Sale();
+            Console.WriteLine(sailing);
+
+            string plane2 = "Plane";
+            string flying = plane2.Fly();
+            Console.WriteLine(flying);
+
+            string motorbike2 = "Motorbike";
+            string wheeling = motorbike2.Wheelie();
+            Console.WriteLine(wheeling);
         }
     }
 }

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public interface IVehichle
+    public abstract class Vehichle
     {
-        string DisplayInfo();
+        public abstract string  DisplayInfo();
+
+
+
+
     }
 }

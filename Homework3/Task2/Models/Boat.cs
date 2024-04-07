@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Boat : IVehichle
+    public class Boat : Vehichle
     {
-        public string DisplayInfo()
+
+        public override string DisplayInfo()
         {
             return "Im a boat and i do not have any wheels :(";
-        }
-
-        public string Sail()
-        {
-            return "Sailing";
         }
     }
 }
