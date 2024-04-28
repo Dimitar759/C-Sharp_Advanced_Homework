@@ -1,4 +1,5 @@
-﻿using Services.Interfaces;
+﻿using Models.Enums;
+using Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,17 +10,22 @@ namespace Services.Implementation
 {
     public class TrainingService : ITrainingService
     {
-        public void LiveTraining()
+        public void AccessLiveTraining(UserType userType)
         {
             throw new NotImplementedException();
         }
 
-        public void Rating()
+        public void AccessVideoTraining(UserType userType)
         {
             throw new NotImplementedException();
         }
 
-        public void VideoTraining()
+        public TimeSpan GetTimeTillNextLiveTraining()
+        {
+            throw new NotImplementedException();
+        }
+
+        public double GetTrainingRating(int trainingId)
         {
             throw new NotImplementedException();
         }

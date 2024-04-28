@@ -9,9 +9,10 @@ namespace Services.Interfaces
 {
     public interface ITrainingService
     {
-        void LiveTraining();
-        void VideoTraining();
-        void Rating();
-    
+        void AccessLiveTraining(UserType userType); 
+        void AccessVideoTraining(UserType userType); 
+        double GetTrainingRating(int trainingId); 
+        TimeSpan GetTimeTillNextLiveTraining();
+
     }
 }
