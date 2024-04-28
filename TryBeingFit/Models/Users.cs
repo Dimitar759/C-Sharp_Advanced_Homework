@@ -2,16 +2,19 @@
 
 namespace Models
 {
-    public class Users : BaseEntity
+    public class Users : User
     {
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public UserType AccountType { get; set; }
 
-        public Users(string firstName, string lastName, string username, string password, UserType accountType)
+
+        public Users(int id, string firstName, string lastName, string username, string password, UserType accountType)
         {
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
             Username = username;
@@ -41,7 +44,7 @@ namespace Models
 
         public bool Register(Users user)
         {
-            users.Add(user);
+
             return true; 
         }
 
@@ -73,3 +76,6 @@ namespace Models
         }
     }
 }
+// narpavi servisi za login logout i register
+// Train da bide za site negavi treninzi
+//account da bide za detalite na userot- dali e user ili trener

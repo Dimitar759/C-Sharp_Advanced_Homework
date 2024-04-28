@@ -7,16 +7,18 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Trainer  : BaseEntity
+    public class Trainer : User
     {
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public UserType AccountType { get; } = UserType.Trainer; 
 
-        public Trainer(string firstName, string lastName, string username, string password)
+        public Trainer(int id, string firstName, string lastName, string username, string password)
         {
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
             Username = username;
