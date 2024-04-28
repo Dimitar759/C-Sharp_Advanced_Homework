@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "TryBeingFit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TryBeingFit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "TryBeingFit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TryBeingFit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TryBeingFit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "TryBeingFit/1.0.0": {
+      "type": "project",
+      "path": "../TryBeingFit/TryBeingFit.csproj",
+      "msbuildProject": "../TryBeingFit/TryBeingFit.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DataAccess >= 1.0.0",
+      "Models >= 1.0.0",
+      "TryBeingFit >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dimit\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Models\\Models.csproj"
+            },
+            "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\TryBeingFit\\TryBeingFit.csproj": {
+              "projectPath": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\TryBeingFit\\TryBeingFit.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
