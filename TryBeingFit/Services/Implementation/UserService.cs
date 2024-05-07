@@ -58,22 +58,27 @@ namespace Services.Implementation
 
         public bool Register(string firstName, string lastName, string username, string password)
         {
-            // Validate user input
             if (!ValidateUserInput(firstName, lastName, username, password))
+            {
                 return false;
+            }
 
-            // Check if the username is already taken
-            if (Storage.Clients.GetAll().Any(u => u.Username == username))
+            if (IsUsernameTaken(username))
+            {
                 return false;
+            }
 
-            // Create a new client/user
             var newUser = new Client(0, firstName, lastName, username, password, UserType.Standard);
-            Storage.Clients.Add(newUser);
 
-            // Log in the user after registration
             CurrentSession.CurrentUser = newUser;
 
             return true;
+        }
+
+        private bool IsUsernameTaken(string username)
+        {
+            
+            return Storage.Clients.GetAll().Any(u => u.Username == username);
         }
 
         public bool ValidateUserInput(string firstName, string lastName, string username, string password)

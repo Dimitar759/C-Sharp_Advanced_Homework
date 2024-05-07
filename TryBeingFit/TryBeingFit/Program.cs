@@ -9,7 +9,7 @@ namespace TryBeingFit
 {
     public class Program
     {
-        static MenuService menuService;
+        static MenuService menuService =  new MenuService();
         static UserService userService = new UserService();
         static TrainingService trainingService = new TrainingService();
         static void Main(string[] args)
@@ -80,7 +80,6 @@ namespace TryBeingFit
                         if (loggedIn)
                         {
                             Console.WriteLine("Login successful.");
-
                             DisplayMenu(userService.Account());
                         }
                         else
