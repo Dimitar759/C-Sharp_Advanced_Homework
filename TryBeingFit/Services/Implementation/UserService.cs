@@ -1,4 +1,7 @@
-﻿using Services.Interfaces;
+﻿using DataAccess;
+using Models;
+using Models.Enums;
+using Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,37 +12,112 @@ namespace Services.Implementation
 {
     public class UserService : IUserService
     {
-        public void Account()
+        public string Account()
         {
-            throw new NotImplementedException();
+            if (CurrentSession.CurrentUser == null)
+            {
+                return "No user logged in.";
+            }
+
+            switch (CurrentSession.CurrentUser.AccountType)
+            {
+                case UserType.Standard:
+                    return "Standard User";
+                case UserType.Premium:
+                    return "Premium User";
+                case UserType.Trainer:
+                    return "Trainer";
+                default:
+                    return "Unknown Account Type";
+            }
         }
 
-        public bool Login()
+        public bool Login(string username, string password)
         {
-            throw new NotImplementedException();
+            var client = Storage.Clients.GetAll().FirstOrDefault(u => u.Username == username && u.Password == password);
+            if (client != null)
+            {
+                CurrentSession.CurrentUser = client;
+                return true;
+            }
+
+            var trainer = Storage.Trainers.GetAll().FirstOrDefault(u => u.Username == username && u.Password == password);
+            if (trainer != null)
+            {
+                CurrentSession.CurrentUser = trainer;
+                return true;
+            }
+
+            return false;
         }
 
         public void LogOut()
         {
-            throw new NotImplementedException();
+            CurrentSession.CurrentUser = null;
         }
 
-        public bool Register()
+        public bool Register(string firstName, string lastName, string username, string password)
         {
-            throw new NotImplementedException();
-        }
+            // Validate user input
+            if (!ValidateUserInput(firstName, lastName, username, password))
+                return false;
 
-        public void UpgradeToPremium()
-        {
-            throw new NotImplementedException();
+            // Check if the username is already taken
+            if (Storage.Clients.GetAll().Any(u => u.Username == username))
+                return false;
+
+            // Create a new client/user
+            var newUser = new Client(0, firstName, lastName, username, password, UserType.Standard);
+            Storage.Clients.Add(newUser);
+
+            // Log in the user after registration
+            CurrentSession.CurrentUser = newUser;
+
+            return true;
         }
 
         public bool ValidateUserInput(string firstName, string lastName, string username, string password)
         {
-            throw new NotImplementedException();
+
+            if (string.IsNullOrWhiteSpace(firstName) || string.IsNullOrWhiteSpace(lastName) || firstName.Length < 2 || lastName.Length < 2)
+            {
+                Console.WriteLine("Please enter a first name and last name with a minimum of 2 characters");
+                return false;
+            }
+
+            
+            if (string.IsNullOrWhiteSpace(username) || username.Length < 6)
+            {
+                Console.WriteLine("Please enter a username with a minimum of 6 characters");
+                return false;
+            }
+
+            
+            if (string.IsNullOrWhiteSpace(password) || password.Length < 6 || !password.Any(char.IsDigit))
+            {
+                Console.WriteLine("Please enter a password with a minimum of 6 characters and atleast 1 number");
+                return false;
+            }
+
+            return true;
         }
 
-        //for the trainers:
+
+        public bool UpgradeToPremium()
+        {
+            if (CurrentSession.CurrentUser == null || CurrentSession.CurrentUser.AccountType != UserType.Standard)
+            {
+                return false; 
+            }
+
+            
+            CurrentSession.CurrentUser.AccountType = UserType.Premium;
+            return true;
+        }
+
+
+
+        //for the trainers
         public void RescheduleTraining()
         {
             throw new NotImplementedException();

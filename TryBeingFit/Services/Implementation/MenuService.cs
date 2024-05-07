@@ -11,17 +11,28 @@ namespace Services.Implementation
     {
         public void PremiumUserMenu()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Menu:");
+            Console.WriteLine("1. Train");
+            Console.WriteLine("2. Account");
+            Console.WriteLine("3. Log Out");
         }
 
         public void TrainerMenu()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Menu:");
+            Console.WriteLine("1. Reschedule Training");
+            Console.WriteLine("2. Account");
+            Console.WriteLine("3. Train");
+            Console.WriteLine("4. Log Out");
         }
 
         public void UserMenu()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Menu:");
+            Console.WriteLine("1. Train");
+            Console.WriteLine("2. Upgrade to Premium");
+            Console.WriteLine("3. Account");
+            Console.WriteLine("4. Log Out");
         }
     }
 }

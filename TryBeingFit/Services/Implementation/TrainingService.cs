@@ -12,7 +12,15 @@ namespace Services.Implementation
     {
         public void AccessLiveTraining(UserType userType)
         {
-            throw new NotImplementedException();
+            if (userType == UserType.Premium)
+            {
+
+            }
+            else
+            {
+                // Deny access for normal users
+                Console.WriteLine("Access to live training is available only for premium users.");
+            }
         }
 
         public void AccessVideoTraining(UserType userType)
@@ -29,5 +37,7 @@ namespace Services.Implementation
         {
             throw new NotImplementedException();
         }
+
+       
     }
 }

@@ -1,10 +1,4 @@
 ﻿using Models.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Services.Interfaces
 {
     public interface ITrainingService
@@ -13,6 +7,8 @@ namespace Services.Interfaces
         void AccessVideoTraining(UserType userType); 
         double GetTrainingRating(int trainingId); 
         TimeSpan GetTimeTillNextLiveTraining();
+
+        
 
     }
 }

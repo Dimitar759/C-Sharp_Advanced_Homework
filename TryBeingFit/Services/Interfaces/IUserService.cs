@@ -8,14 +8,14 @@ namespace Services.Interfaces
 {
     public  interface IUserService
     {
-        void Account();
-        bool Register();
+        string Account();
+        bool Register(string firstName, string lastName, string username, string password);
 
-        bool Login();
+        bool Login(string username, string password);
 
         void LogOut();
 
-        void UpgradeToPremium();
+        bool UpgradeToPremium();
 
         bool ValidateUserInput(string firstName, string lastName, string username, string password);
 

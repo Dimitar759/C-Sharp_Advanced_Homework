@@ -9,7 +9,7 @@ namespace Models
 {
     public static class Storage
     {
-        public static StorageSet<User> Users = new StorageSet<User> ();
+        public static StorageSet<Client> Clients = new StorageSet<Client> ();
         public static StorageSet<Trainer> Trainers = new StorageSet<Trainer> ();
     }
 }
