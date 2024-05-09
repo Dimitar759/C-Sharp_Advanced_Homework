@@ -9,7 +9,7 @@ namespace TryBeingFit
 {
     public class Program
     {
-        static MenuService menuService =  new MenuService();
+        static MenuService menuService = new MenuService();
         static UserService userService = new UserService();
         static TrainingService trainingService = new TrainingService();
         static void Main(string[] args)
@@ -35,13 +35,12 @@ namespace TryBeingFit
             //    Console.WriteLine($"ID: {client.Id}, Name: {client.FirstName} {client.LastName}, Username: {client.Username}, Account Type: {client.AccountType}");
             //}
 
-            
+
 
             while (true)
             {
                 Console.WriteLine("1. Register");
                 Console.WriteLine("2. Log In");
-                Console.WriteLine("3. Exit");
                 Console.WriteLine("Choose an option: ");
 
 
@@ -80,7 +79,7 @@ namespace TryBeingFit
                         if (loggedIn)
                         {
                             Console.WriteLine("Login successful.");
-                            DisplayMenu(userService.Account());
+
                         }
                         else
                         {
@@ -94,6 +93,28 @@ namespace TryBeingFit
                     default:
                         Console.WriteLine("Invalid option.");
                         break;
+                }
+
+                if (CurrentSession.CurrentUser != null)
+                {
+                    string accountType = userService.Account();
+                    DisplayMenu(accountType);
+
+
+                    if (accountType == "Standard")
+                    {
+                        HandleStandardUserChoice();
+                    }
+
+                    if (accountType == "Premium")
+                    {
+                        HandlePremiumUserChoice();
+                    }
+
+                    if (accountType == "Trainer")
+                    {
+                        HandleTrainerChoice();
+                    }
                 }
             }
         }
@@ -116,6 +137,90 @@ namespace TryBeingFit
 
                 default:
                     Console.WriteLine("Unknown Account Type.");
+                    break;
+            }
+        }
+
+
+        static void HandleStandardUserChoice()
+        {
+            Console.WriteLine("Enter your choice: ");
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    userService.Train();
+                    break;
+
+                case "2":
+                    userService.UpgradeToPremium();
+                    break;
+
+                case "3":
+                    userService.Account();
+                    break;
+
+                case "4":
+                    userService.LogOut();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    break;
+            }
+        }
+
+        static void HandlePremiumUserChoice()
+        {
+            Console.WriteLine("Enter your choice: ");
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    userService.Train();
+                    break;
+
+                case "2":
+                    userService.Account();
+                    break;
+
+                case "3":
+                    userService.LogOut();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    break;
+            }
+        }
+
+        static void HandleTrainerChoice()
+        {
+            Console.WriteLine("Enter your choice: ");
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    userService.RescheduleTraining();
+                    break;
+
+                case "2":
+                    userService.Account();
+                    break;
+
+                case "3":
+                    userService.Train();
+                    break;
+
+                case "4":
+                    userService.LogOut();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice.");
                     break;
             }
         }

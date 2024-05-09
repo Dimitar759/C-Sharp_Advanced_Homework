@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{1F4CD16D-0BE2-4475-96C1-F88CC536B65C}|TryBeingFit\\TryBeingFit.csproj|solutionrelative:trybeingfit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{722662A0-1383-4492-8201-0542E83A3FA8}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{722662A0-1383-4492-8201-0542E83A3FA8}|Models\\Models.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\services\\implementation\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|solutionrelative:services\\implementation\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|solutionrelative:services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722662A0-1383-4492-8201-0542E83A3FA8}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722662A0-1383-4492-8201-0542E83A3FA8}|Models\\Models.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E3D0938-C5C6-4B7D-BC68-00996F554E1C}|DataAccess\\DataAccess.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\dataaccess\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\services\\implementation\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70C4468-C427-46F5-A2AD-72413C47151D}|Services\\Services.csproj|solutionrelative:services\\implementation\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{722662A0-1383-4492-8201-0542E83A3FA8}|Models\\Models.csproj|c:\\users\\dimit\\onedrive\\documents\\github\\c-sharp_advanced_homework\\trybeingfit\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Storage.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\DataAccess\\Storage.cs",
               "RelativeDocumentMoniker": "DataAccess\\Storage.cs",
@@ -54,8 +54,7 @@
               "RelativeToolTip": "DataAccess\\Storage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:25:09.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T19:25:09.831Z"
             },
             {
               "$type": "Document",
@@ -67,25 +66,24 @@
               "RelativeToolTip": "Models\\Training.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:47:56.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T18:47:56.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MenuService.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\Implementation\\MenuService.cs",
               "RelativeDocumentMoniker": "Services\\Implementation\\MenuService.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\Implementation\\MenuService.cs",
               "RelativeToolTip": "Services\\Implementation\\MenuService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswCEAAAAsAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:52:59.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:03:54.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T17:03:54.745Z"
             },
             {
               "$type": "Document",
@@ -104,7 +101,7 @@
               "RelativeDocumentMoniker": "Services\\Implementation\\UserService.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Services\\Implementation\\UserService.cs",
               "RelativeToolTip": "Services\\Implementation\\UserService.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAADwv0YAAABkAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAqwH0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:02:55.342Z",
               "EditorCaption": ""
@@ -117,7 +114,7 @@
               "RelativeDocumentMoniker": "TryBeingFit\\Program.cs",
               "ToolTip": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\TryBeingFit\\Program.cs",
               "RelativeToolTip": "TryBeingFit\\Program.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFkAAAAAAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAqwE4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:02:01.292Z",
               "EditorCaption": ""
@@ -132,12 +129,11 @@
               "RelativeToolTip": "Models\\Trainer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T16:57:08.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T16:57:08.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\OneDrive\\Documents\\GitHub\\C-Sharp_Advanced_Homework\\TryBeingFit\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
