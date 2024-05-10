@@ -116,6 +116,8 @@ namespace TryBeingFit
                         HandleTrainerChoice();
                     }
                 }
+
+
             }
         }
 

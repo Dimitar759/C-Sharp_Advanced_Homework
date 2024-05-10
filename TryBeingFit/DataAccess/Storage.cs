@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public static class Storage
+    public class Storage
     {
         public static StorageSet<Client> Clients { get; set; }
         public static StorageSet<Trainer> Trainers { get; set; }

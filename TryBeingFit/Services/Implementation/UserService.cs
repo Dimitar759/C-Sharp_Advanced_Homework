@@ -12,6 +12,13 @@ namespace Services.Implementation
 {
     public class UserService : IUserService
     {
+
+        private Storage _storage;
+
+        public UserService()
+        {
+            _storage = new Storage();
+        }
         public string Account()
         {
             if (CurrentSession.CurrentUser == null)
@@ -71,6 +78,8 @@ namespace Services.Implementation
             var newUser = new Client(0, firstName, lastName, username, password, UserType.Standard);
 
             CurrentSession.CurrentUser = newUser;
+
+            Storage.Clients.Add(newUser);
 
             return true;
         }
