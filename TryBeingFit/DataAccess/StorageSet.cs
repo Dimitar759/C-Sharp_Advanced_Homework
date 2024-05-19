@@ -1,15 +1,23 @@
 ﻿using Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace DataAccess
 {
     public class StorageSet<T> : IStorageSet<T> where T : User
     {
         public List<T> Items { get; set; } = new List<T>();
+        private readonly string _filePath;
+
+        public StorageSet(string filePath)
+        {
+            _filePath = filePath;
+            LoadFromFile();
+        }
+
         public void Add(T entity)
         {
             if (entity.Id != 0)
@@ -28,6 +36,7 @@ namespace DataAccess
             }
 
             Items.Add(entity);
+            SaveToFile();
         }
 
         public List<T> GetAll()
@@ -41,7 +50,7 @@ namespace DataAccess
 
             if (item == null)
             {
-                throw new KeyNotFoundException($"Entity with Id = {id} does not exit");
+                throw new KeyNotFoundException($"Entity with Id = {id} does not exist");
             }
 
             return item;
@@ -53,12 +62,12 @@ namespace DataAccess
 
             if (item == null)
             {
-                throw new KeyNotFoundException($"Entity with Id = {entity.Id} does not exit");
+                throw new KeyNotFoundException($"Entity with Id = {entity.Id} does not exist");
             }
 
             int index = Items.IndexOf(item);
-
             Items[index] = entity;
+            SaveToFile();
         }
 
         public void Delete(T entity)
@@ -72,10 +81,31 @@ namespace DataAccess
 
             if (item == null)
             {
-                throw new KeyNotFoundException($"Entity with Id = {id} does not exit");
+                throw new KeyNotFoundException($"Entity with Id = {id} does not exist");
             }
 
             Items.Remove(item);
+            SaveToFile();
+        }
+
+        private void SaveToFile()
+        {
+            var json = JsonSerializer.Serialize(Items);
+            File.WriteAllText(_filePath, json);
+        }
+
+        private void LoadFromFile()
+        {
+            if (!File.Exists(_filePath)) return;
+
+            var json = File.ReadAllText(_filePath);
+            var items = JsonSerializer.Deserialize<List<T>>(json);
+
+            if (items != null)
+            {
+                Items = items;
+            }
         }
     }
+
 }
