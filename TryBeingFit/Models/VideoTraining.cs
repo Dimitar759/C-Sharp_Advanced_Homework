@@ -9,11 +9,13 @@ namespace Models
 {
     public class VideoTraining : Training
     {
-        public VideoTraining(TrainingType type, double rating, TimeSpan duration, TimeSpan timeTillNextLiveTraining) 
+        public DateTime StartTime { get; set; }  // Add StartTime property
+
+        public VideoTraining(TrainingType type, double rating, TimeSpan duration, TimeSpan timeTillNextLiveTraining)
             : base(type, rating, duration, timeTillNextLiveTraining)
         {
         }
 
-       
+
     }
 }

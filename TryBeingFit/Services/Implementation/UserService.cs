@@ -119,6 +119,23 @@ namespace Services.Implementation
             return true;
         }
 
+        public void ViewSchedule()
+        {
+            if (CurrentSession.CurrentUser is Trainer trainer)
+            {
+                Console.WriteLine("Live Trainings:");
+                foreach (var training in trainer.LiveTrainings)
+                {
+                    Console.WriteLine($"Start Time: {training.StartTime}, Duration: {training.Duration}");
+                }
+
+                Console.WriteLine("Video Trainings:");
+                foreach (var training in trainer.VideoTrainings)
+                {
+                    Console.WriteLine($"Duration: {training.Duration}");
+                }
+            }
+        }
         // For the trainers
         public void RescheduleTraining()
         {

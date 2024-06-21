@@ -156,7 +156,15 @@ namespace TryBeingFit
                     break;
 
                 case "2":
-                    userService.UpgradeToPremium();
+                    bool upgraded = userService.UpgradeToPremium();
+                    if (upgraded)
+                    {
+                        Console.WriteLine("You've been upgraded to Premium.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Upgrade failed. You might not be eligible or already upgraded.");
+                    }
                     break;
 
                 case "3":

@@ -9,7 +9,9 @@ namespace Models
 {
     public class LiveTraining : Training
     {
-        public LiveTraining(TrainingType type, double rating, TimeSpan duration, TimeSpan timeTillNextLiveTraining) 
+        public DateTime StartTime { get; set; }
+
+        public LiveTraining(TrainingType type, double rating, TimeSpan duration, TimeSpan timeTillNextLiveTraining)
             : base(type, rating, duration, timeTillNextLiveTraining)
         {
         }
